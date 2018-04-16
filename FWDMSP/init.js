@@ -1,4 +1,3 @@
-<script type="text/javascript">
 		FWDMSPUtils.onReady(function(){
 			setupMSP();
 		});
@@ -134,4 +133,3 @@
 				popupWindowHeight:423
 			});
 		}
-	</script>
