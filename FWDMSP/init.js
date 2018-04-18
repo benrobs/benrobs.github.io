@@ -8,7 +8,7 @@
 				instanceName:"minimaldrk1",
 				playlistsId:"playlists",
 				mainFolderPath:"http://codes.flutenotes.ph/files/start/content/",
-				skinPath:"minimal_skin_dark",
+				skinPath:"classic_skin_dark",
 				showSoundCloudUserNameInTitle:"yes",
 				privatePassword:"428c841430ea18a70f7b06525d4b748a",
 				showMainBackground:"yes",
