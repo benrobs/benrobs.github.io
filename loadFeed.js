@@ -6,10 +6,6 @@ function labelthumbs(json) {
         var posttitle23 = entry.title.$t;
         var posttitle = jQuery.trim(posttitle23).substring(0, 40)
                           .split(" ").slice(0, -1).join(" ");
-        if (posttitle23.length > 40)
-        {
-            posttitle = posttitle + "...";
-        }
         var posturl;
         if (i == json.feed.entry.length) break;
         for (var k = 0; k < entry.link.length; k++) {
