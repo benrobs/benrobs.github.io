@@ -5,7 +5,7 @@ function labelthumbs(json) {
         var entry = json.feed.entry[i];
         var posttitle23 = entry.title.$t; 
         var posttitle = jQuery.trim(posttitle23).substring(0, 40)
-                          .trim(this) + "...";
+                          .split(" ").slice(0, -1).join(" ") + "...";
         var posturl;
         if (i == json.feed.entry.length) break;
         for (var k = 0; k < entry.link.length; k++) {
