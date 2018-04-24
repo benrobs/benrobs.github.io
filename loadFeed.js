@@ -4,7 +4,7 @@ function labelthumbs(json) {
 
         var entry = json.feed.entry[i];
         var posttitle23 = entry.title.$t;
-        var posttitle = posttitle23.length > 49 ? posttitle23.substring(0, 36) + "..." : posttitle23;
+        var posttitle = posttitle23.length > 39 ? posttitle23.substring(0, 36) + "..." : posttitle23;
         
         
         var posturl;
